@@ -1,0 +1,617 @@
+.navbar {
+    min-height: 150px;
+    padding-right: 11vmin;
+}
+.navbar-custom{
+    background-color: #ffffff;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(251,201,114);
+    font-family: mitr;
+    font-size: 2.8vmin;
+}
+.navbar-custom .nav-item:hover .nav-link{
+    color: rgba(241, 151, 98);
+    font-weight: bold;
+    font-family: mitr;
+    font-size: 3vmin;
+}
+.navbar-custom .navbar-toggler-icon {
+    width: 50px;
+    height: 42px;
+    margin-top: -10vmin;
+    background-image: url(../L/burger_icon.png);
+    
+  }
+
+@media (min-width:768px){
+    .title_top{
+        margin-left: 5vw; 
+    }
+    .hi_my_name{
+        font-family: viga;
+        font-size: 3vw;
+        color: #4B56A5;
+    }
+    .amanda{
+        font-family: viga;
+        font-size: 5vw; 
+        color: #F19762;
+    }
+    .an_inter{
+        font-family: viga;
+        font-size: 2vw;
+        color: #4B56A5;
+    }
+    .who_is{
+        display: block;
+        font-family: viga;
+        font-size: 2vw;
+        color: #4B56A5;
+    }
+    .scrolll_top{
+        font-family: mitr;
+        font-size: 1.5vw;
+        margin-top: 25vh;
+        text-align: center;
+        color: #707070;
+    }
+    .landing_me{
+        display: block;
+        position: absolute;
+        z-index: -20;
+        right: 5vw;
+    }
+    .landing_me_M{
+        display: none;
+        position: absolute;
+        top: 35vh;
+        z-index: -20;
+        right: 10vw;
+    }
+    
+    .about_block{
+        margin-top: 25vh;
+    }
+    .about_uiux{
+        margin-top: 10vh;
+    }
+    .title_about{
+        margin-left: 15vw; 
+        margin-top: 10vh;
+    }
+    .about{
+        font-family: viga;
+        font-size: 3vw;
+        color: #4B56A5;
+    }
+    .me{
+        font-family: viga;
+        font-size: 4vw; 
+        color: #FBC972;
+    }
+    .scrolll_works_M{
+        font-family: mitr;
+        font-size: 1.5vw;
+        margin-top: 25vh;
+        text-align: center;
+        color: #707070;
+    }
+    .skill_pic{
+        display: block;
+        position: absolute;
+        margin-top: 8vh;
+        z-index: -20;
+        right: 10vw;
+    }
+    .skill_pic_M{
+        display: none;
+        position: absolute;
+        width: 55vw;
+        margin-top: 20vh;
+        z-index: -20;
+        right: 12vw;
+    }
+    .btn-info{
+        background-color: #F19762;
+        margin-top: 20vh;
+        width: 10vw;
+        height: 8vh;
+        font-family: mitr;
+        font-size: 1vw;
+        border: none;
+    }
+    .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open>.dropdown-toggle.btn-info{
+        background-color: #4B56A5;
+    }
+    
+    .uiux{
+        position: absolute;
+        top: 5vh;
+        z-index: -10;
+        font-family: viga;
+        font-size: 4vw;
+        color: #FBC972;
+    }
+    .design{
+        position: absolute;
+        z-index: -10;
+        top: 15vh;
+        font-family: viga;
+        font-size: 3vw;
+        color: #4B56A5;
+    }
+    
+    #slideShowRight {
+        width: 55%;
+        float: right;
+        margin-top: 10vh;
+        margin-right: 5vw;
+      }
+    
+    .btn-uiux{
+        background-color: #F19762;
+        position: absolute;
+        z-index: 20;
+        margin-top: -10vh;
+        width: 10vw;
+        height: 8vh;
+        font-family: mitr;
+        font-size: 1vw;
+        border: none;
+        color: #ffffff;
+    }
+    .btn-uiux:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open>.dropdown-toggle.btn-info{
+        background-color: #4B56A5;
+        color: #ffffff;
+    }
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+    }
+    
+    .threedsmax{
+        position: absolute;
+        top: 15vh;
+        z-index: -10;
+        font-family: viga;
+        font-size: 3vw;
+        color: #FBC972;
+    }
+    .works{
+        position: absolute;
+        z-index: -10;
+        top: 23vh;
+        font-family: viga;
+        font-size: 3vw;
+        color: #4B56A5;
+    }
+    
+    .footer{
+        margin-top: 20vh;
+        height: 25vh;
+        background-color: #FBC972;
+        padding-top: 4vh;
+    }
+    .contact_me{
+        font-family: mitr;
+        font-size: 3vh;
+        text-align: center;
+        color: #4B56A5;
+    }
+    .line_tel{
+        font-family: mitr;
+        font-size: 2.5vh;
+        text-align: center;
+        color: #4B56A5;
+    }
+
+}
+
+
+@media (min-width: 576px)and (max-width: 768px){
+    .title_top{
+        margin-left: 10vw; 
+    }
+    .hi_my_name{
+        font-family: viga;
+        font-size: 4vw;
+        color: #4B56A5;
+    }
+    .amanda{
+        font-family: viga;
+        font-size: 6vw; 
+        color: #F19762;
+    }
+    .an_inter{
+        font-family: viga;
+        font-size: 3vw;
+        color: #4B56A5;
+    }
+    .who_is{
+        display: none;
+        font-family: viga;
+        font-size: 2vw;
+        color: #4B56A5;
+    }
+    .scrolll_top{
+        font-family: mitr;
+        font-size: 1.5vw;
+        margin-top: 40vh;
+        text-align: center;
+        color: #707070;
+    }
+    .landing_me{
+        display: none;
+        position: absolute;
+        top: 35vh;
+        z-index: -20;
+        right: 10vw;
+    }
+    .landing_me_M{
+        display: block;
+        position: absolute;
+        top: 22vh;
+        z-index: -20;
+        right: 10vw;
+    }
+    
+    .about_block{
+        margin-top: 10vh;
+    }
+    .about_uiux{
+        margin-top: 2vh;
+    }
+    .title_about{
+        margin-left: 15vw; 
+        margin-top: 10vh;
+    }
+    .about{
+        font-family: viga;
+        font-size: 6vw;
+        line-height: 2vh;
+        color: #4B56A5;
+    }
+    .me{
+        font-family: viga;
+        font-size: 7vw; 
+        color: #FBC972;
+    }
+    .scrolll_about{
+        font-family: mitr;
+        font-size: 1.5vw;
+        margin-top: 25vh;
+        text-align: center;
+        color: #707070;
+    }
+    .scrolll_works_M{
+        font-family: mitr;
+        font-size: 1.5vw;
+        margin-top: 10vh;
+        text-align: center;
+        color: #707070; 
+    }
+    .skill_pic{
+        display: none;
+        position: absolute;
+        margin-top: 8vh;
+        z-index: -20;
+        right: 10vw;
+    }
+    .skill_pic_M{
+        display: block;
+        position: absolute;
+        width: 55vw;
+        margin-top: 20vh;
+        z-index: -20;
+        right: 12vw;
+    }
+    .btn-info{
+        background-color: #F19762;
+        margin-top: 45vh;
+        margin-left: 37vw;
+        width: 23vw;
+        height: 5.2vh;
+        font-family: mitr;
+        font-size: 2vw;
+        border: none;
+        border-radius: 3vw;
+    }
+    .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open>.dropdown-toggle.btn-info{
+        background-color: #4B56A5;
+    }
+    
+    .uiux{
+        position: absolute;
+        top: 5vh;
+        z-index: -10;
+        font-family: viga;
+        font-size: 6vw;
+        color: #FBC972;
+    }
+    .design{
+        position: absolute;
+        z-index: -10;
+        top: 12vh;
+        font-family: viga;
+        font-size: 5vw;
+        color: #4B56A5;
+    }
+    
+    #slideShowRight {
+        width: 75%;
+       
+        margin-top: 20vh;
+        margin-left: 10vh;
+      }
+    
+    .btn-uiux{
+        background-color: #F19762;
+        margin-top: 5vh;
+        margin-left: 37vw;
+        width: 23vw;
+        height: 5.2vh;
+        font-family: mitr;
+        font-size: 2vw;
+        border: none;
+        border-radius: 3vw;
+        color: #ffffff;
+    }
+    .btn-uiux:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open>.dropdown-toggle.btn-info{
+        background-color: #4B56A5;
+        color: #ffffff;
+    }
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+    }
+    
+    .threedsmax{
+        position: absolute;
+        top: 5vh;
+        z-index: -10;
+        font-family: viga;
+        font-size: 6vw;
+        color: #FBC972;
+    }
+    .works{
+        position: absolute;
+        z-index: -10;
+        top: 10vh;
+        font-family: viga;
+        font-size: 5vw;
+        color: #4B56A5;
+    }
+    
+    .footer{
+        margin-top: 10vh;
+        height: 15vh;
+        background-color: #FBC972;
+        padding-top: 2vh;
+    }
+    .contact_me{
+        font-family: mitr;
+        font-size: 2vh;
+        text-align: center;
+        color: #4B56A5;
+    }
+    .line_tel{
+        font-family: mitr;
+        font-size: 1.5vh;
+        text-align: center;
+        color: #4B56A5;
+    }
+}
+
+
+@media (max-width: 576px){
+    .navbar-custom .navbar-toggler-icon {
+        width: 40px;
+        height: 33.6px;
+        margin-top: -15vmin;
+        background-image: url(../L/burger_icon.png);
+        
+      }
+    
+    .title_top{
+        margin-left: 10vw; 
+    }
+    .hi_my_name{
+        font-family: viga;
+        font-size: 6vw;
+        color: #4B56A5;
+    }
+    .amanda{
+        font-family: viga;
+        font-size: 8vw; 
+        color: #F19762;
+    }
+    .an_inter{
+        display: none;
+        font-family: viga;
+        font-size: 3vw;
+        color: #4B56A5;
+    }
+    .who_is{
+        display: none;
+        font-family: viga;
+        font-size: 2vw;
+        color: #4B56A5;
+    }
+    .scrolll_top{
+        font-family: mitr;
+        font-size: 1.5vw;
+        margin-top: 45vh;
+        text-align: center;
+        color: #707070;
+    }
+    .landing_me{
+        display: none;
+        position: absolute;
+        top: 35vh;
+        z-index: -20;
+        right: 10vw;
+    }
+    .landing_me_M{
+        display: block;
+        position: absolute;
+        top: 22vh;
+        z-index: -20;
+        right: 6vw;
+    }
+    
+    .about_block{
+        margin-top: 10vh;
+    }
+    .about_uiux{
+        margin-top: 2vh;
+    }
+    .title_about{
+        margin-left: 15vw; 
+        margin-top: 10vh;
+    }
+    .about{
+        font-family: viga;
+        font-size: 7vw;
+        line-height: 2vh;
+        color: #4B56A5;
+    }
+    .me{
+        font-family: viga;
+        font-size: 8vw; 
+        color: #FBC972;
+    }
+    .scrolll_about{
+        font-family: mitr;
+        font-size: 1.5vw;
+        margin-top: 25vh;
+        text-align: center;
+        color: #707070;
+    }
+    .scrolll_works_M{
+        font-family: mitr;
+        font-size: 1.5vw;
+        margin-top: 12vh;
+        text-align: center;
+        color: #707070; 
+    }
+    .skill_pic{
+        display: none;
+        position: absolute;
+        margin-top: 8vh;
+        z-index: -20;
+        right: 10vw;
+    }
+    .skill_pic_M{
+        display: block;
+        position: absolute;
+        width: 65vw;
+        margin-top: 22vh;
+        z-index: -20;
+        right: 15vw;
+    }
+    .btn-info{
+        background-color: #F19762;
+        margin-top: 42vh;
+        margin-left: 37vw;
+        width: 23vw;
+        height: 5.2vh;
+        font-family: mitr;
+        font-size: 2.5vw;
+        border: none;
+        border-radius: 3vw;
+    }
+    .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open>.dropdown-toggle.btn-info{
+        background-color: #4B56A5;
+    }
+    
+    .uiux{
+        position: absolute;
+        top: 5vh;
+        z-index: -10;
+        font-family: viga;
+        font-size: 8vw;
+        color: #FBC972;
+    }
+    .design{
+        position: absolute;
+        z-index: -10;
+        top: 12vh;
+        font-family: viga;
+        font-size: 7vw;
+        color: #4B56A5;
+    }
+    
+    #slideShowRight {
+        width: 75%;
+       
+        margin-top: 22vh;
+        margin-left: 7vh;
+      }
+    
+    .btn-uiux{
+        background-color: #F19762;
+        margin-top: 5vh;
+        margin-left: 37vw;
+        width: 23vw;
+        height: 5.2vh;
+        font-family: mitr;
+        font-size: 2.5vw;
+        border: none;
+        border-radius: 3vw;
+        color: #ffffff;
+    }
+    .btn-uiux:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open>.dropdown-toggle.btn-info{
+        background-color: #4B56A5;
+        color: #ffffff;
+    }
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+    }
+    
+    .threedsmax{
+        position: absolute;
+        top: 5vh;
+        z-index: -10;
+        font-family: viga;
+        font-size: 6vw;
+        color: #FBC972;
+    }
+    .works{
+        position: absolute;
+        z-index: -10;
+        top: 10vh;
+        font-family: viga;
+        font-size: 5vw;
+        color: #4B56A5;
+    }
+    
+    .footer{
+        margin-top: 10vh;
+        height: 13vh;
+        background-color: #FBC972;
+        padding-top: 2vh;
+    }
+    .contact_me{
+        font-family: mitr;
+        font-size: 1.5vh;
+        text-align: center;
+        color: #4B56A5;
+    }
+    .line_tel{
+        font-family: mitr;
+        font-size: 1vh;
+        text-align: center;
+        color: #4B56A5;
+    }
+}
+
+  
+
+
+ 
